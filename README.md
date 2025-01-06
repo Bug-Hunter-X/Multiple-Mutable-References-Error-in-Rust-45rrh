@@ -1,0 +1,1 @@
+This example demonstrates a common error in Rust related to mutable borrowing. Rust's ownership system prevents data races by ensuring only one mutable reference to a value can exist at any given time.  Attempting to create multiple mutable references results in a compile-time error. The solution shows how to refactor the code to avoid this error.
